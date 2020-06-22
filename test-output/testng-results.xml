@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15465" started-at="2020-06-22T08:18:22Z" finished-at="2020-06-22T08:18:38Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunLogin@3dd4520b]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="15465" started-at="2020-06-22T08:18:22Z" finished-at="2020-06-22T08:18:38Z">
+      <class name="runner.RunLogin">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:runner.RunLogin@3dd4520b]" name="startReport" is-config="true" duration-ms="171" started-at="2020-06-22T08:18:22Z" finished-at="2020-06-22T08:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:runner.RunLogin@3dd4520b]" name="setValues" is-config="true" duration-ms="1" started-at="2020-06-22T08:18:22Z" finished-at="2020-06-22T08:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunLogin@3dd4520b]" name="setUpClass" is-config="true" duration-ms="121" started-at="2020-06-22T08:18:22Z" finished-at="2020-06-22T08:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:runner.RunLogin@3dd4520b]" name="report" is-config="true" duration-ms="13" started-at="2020-06-22T08:18:22Z" finished-at="2020-06-22T08:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:runner.RunLogin@3dd4520b]" name="beforeMethod" is-config="true" duration-ms="10986" started-at="2020-06-22T08:18:23Z" finished-at="2020-06-22T08:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunLogin@3dd4520b]" name="runScenario" duration-ms="4045" started-at="2020-06-22T08:18:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-22T08:18:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[": ACME till companyname"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionlity"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runner.RunLogin@3dd4520b]" name="afterMethod" is-config="true" duration-ms="235" started-at="2020-06-22T08:18:38Z" finished-at="2020-06-22T08:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunLogin@3dd4520b]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-06-22T08:18:38Z" finished-at="2020-06-22T08:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:runner.RunLogin@3dd4520b]" name="stopReport" is-config="true" duration-ms="404" started-at="2020-06-22T08:18:38Z" finished-at="2020-06-22T08:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- runner.RunLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
